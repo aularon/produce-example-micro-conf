@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "babel-preset-es2015": "^6.22.0",
+    "produce-babel": "^0.1.1",
+    "produce-less": "^0.1.1",
+    "produce-pug": "^0.1.0"
+  },
+  "produce": {
+    "plugins": {
+      "babel": {
+        "presets": [
+          "es2015"
+        ]
+      }
+    }
+  }
+}
